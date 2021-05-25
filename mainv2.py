@@ -511,4 +511,4 @@ async def on_ready():
     await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name="🎵 VIVIC | .help"))
     print('Logged in as:\n{0.user.name}\n{0.user.id}'.format(bot))
 
-bot.run('ODA3MzIzMzczOTgxMDA3OTMy.YB2Uew.dwqKH-23BSlV2qmXavFI_-XEIks')
+bot.run('token here')
