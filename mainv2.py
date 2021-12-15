@@ -508,7 +508,7 @@ bot.add_cog(Music(bot))
 
 @bot.event
 async def on_ready():
-    await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name="TO MUSIC"))
+    await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name="music"))
     print('Logged in as:\n{0.user.name}\n{0.user.id}'.format(bot))
 
 bot.run('token here')
